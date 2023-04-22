@@ -1,0 +1,161 @@
+* {
+    font-family: "Lucida Bright", "Segoe UI", "Leelawadee UI",'Lucida Sans', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    background-color: lightslategray;
+    color: aliceblue;
+}
+
+.genovese {
+    border: 2px solid blue;
+    margin: 25px;
+    padding: 10px;
+}
+
+.header-links {
+   border: 2px solid blue;
+   margin: 25px;
+   background-color: cadetblue;
+   align-self: flex-end;
+   color: aliceblue;
+}
+
+.subtitle-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.laptop-photo {
+    object-fit: cover;
+}
+
+.column-container {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    border: 2px solid blue;
+    text-align: center;
+    width: 30%;
+}
+
+.about-me-leftcolumn {
+    border: 2px solid blue;
+}
+
+.my-work-leftcolumn {
+    border: 2px solid blue;
+}
+
+.contact-me-leftcolumn {
+    border: 2px solid blue;
+}
+
+.right-column {
+    border: 2px solid blue;
+}
+
+.right-column-p {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    border: 2px solid blue;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.cool-subtitle {
+    border: 2px solid blue;
+    margin: 25px;
+}
+
+.aboutme-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutme {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: start;
+}
+
+.aboutme-text {
+    border: 2px solid blue;
+}
+
+.left-column {
+    border: 2px solid blue;
+}
+
+.work-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-work {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: start;
+}
+
+.photo-container {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.image-text1 {
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.image-text2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.contact-me {
+    border: 2px solid blue;
+    margin: 25px;
+}
+
+.footer-list {
+    border: 2px solid blue;
+    margin: 25px;
+    background-color: azure;
+    align-self: flex-end;
+}
