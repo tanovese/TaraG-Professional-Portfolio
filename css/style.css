@@ -5,157 +5,164 @@
 .header-container {
     display: flex;
     justify-content: space-between;
-    border: 2px solid blue;
-    background-color: lightslategray;
-    color: aliceblue;
+    background-color: cadetblue;
+    color: whitesmoke;
 }
 
 .genovese {
-    border: 2px solid blue;
     margin: 25px;
-    padding: 10px;
+    color: whitesmoke;
+    font-size: 50px;
 }
 
 .header-links {
-   border: 2px solid blue;
    margin: 25px;
    background-color: cadetblue;
    align-self: flex-end;
    color: aliceblue;
+   font-size: 20px;
 }
 
-.subtitle-container {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-
-.laptop-photo {
-    object-fit: cover;
+.body {
+    background-color: rgb(83, 129, 142);
 }
 
 .column-container {
-    border: 2px solid blue;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .left-column {
-    border: 2px solid blue;
-    text-align: center;
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
-.about-me-leftcolumn {
-    border: 2px solid blue;
+.about-me-left-column {
+    font-size: 30px;
 }
 
-.my-work-leftcolumn {
-    border: 2px solid blue;
+.left-column-p {
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
 }
 
-.contact-me-leftcolumn {
-    border: 2px solid blue;
+.my-work-left-column {
+    font-size: 30px;
+}
+
+.left-column-p2 {
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
 }
 
 .right-column {
-    border: 2px solid blue;
-}
-
-.right-column-p {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: center;
-}
-
-.cards {
-    border: 2px solid blue;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-.cool-subtitle {
-    border: 2px solid blue;
-    margin: 25px;
-}
-
-.aboutme-container {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.aboutme {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: start;
-}
-
-.aboutme-text {
-    border: 2px solid blue;
-}
-
-.left-column {
-    border: 2px solid blue;
-}
-
-.work-container {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.my-work {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: start;
-}
-
-.photo-container {
-    border: 2px solid blue;
+    width: 30%;
     display: flex;
     flex-direction: column;
+}
+
+.photo-container1 {
+    display: flex;
     padding: 15px;
 }
 
 .image-text1 {
-    position:absolute;
+    position: relative;
     bottom: 20px;
     right: 20px;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+    font-size: 18px;
+}
+
+  .photo-container2 {
+    display: flex;
+    padding: 15px;
+    align-items: end;
+}
 
 .image-text2 {
-    position: absolute;
+    position:relative;
     bottom: 20px;
     right: 20px;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 18px;
+}
+
+.photo-container3 {
+    display: flex;
+    padding: 15px;
+    align-items: end;
+}
+
+.image-text3 {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+
+.photo-container4 {
+    display: flex;
+    padding: 15px;
+    align-items: end;
+}
+
+.image-text4 {
+    position:relative;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.photo-container5 {
+    display: flex;
+    padding: 15px;
+    align-items: end;
+}
+
+.image-text5 {
+    position:relative;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
 }
 
 .footer-container {
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
     background-color: cadetblue;
 }
 
 .contact-me {
-    border: 2px solid blue;
     margin: 25px;
+    font-size: 30px;
+    color: azure;
 }
 
 .footer-list {
-    border: 2px solid blue;
     margin: 25px;
-    background-color: azure;
+    background-color: cadetblue;
     align-self: flex-end;
+    font-size: 20px;
 }
