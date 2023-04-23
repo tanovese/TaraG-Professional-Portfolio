@@ -1,5 +1,6 @@
 * {
     font-family: "Lucida Bright", "Segoe UI", "Leelawadee UI",'Lucida Sans', sans-serif;
+    font-weight: bold;
 }
 
 .header-container {
@@ -8,7 +9,6 @@
     background-color: cadetblue;
     color: whitesmoke;
     border: 6px solid aliceblue;
-    margin: 20px;
 }
 
 .genovese {
@@ -18,7 +18,8 @@
     padding: 6px;
 }
 
-.header-1 {
+a:link {
+    text-decoration: none;
     border: 6px solid aliceblue;
     padding: 6px;
     font-size: 18px;
@@ -30,6 +31,58 @@
    align-self: flex-end;
    color: aliceblue;
    font-size: 20px;
+}
+
+.header-1 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.header-1:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+    font-style: italic;
+}
+
+.header-2 {
+    background-color: black;
+    color:aliceblue;
+    margin: 3px;
+}
+
+.header-2:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+    font-style: italic;
+}
+
+.header-3 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.header-3:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+    font-style: italic;
+}
+
+.header-4 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.header-4:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+    font-style: italic;
 }
 
 .body {
@@ -52,33 +105,45 @@
     font-size: 50px;
     text-align: end;
     padding-bottom: 90%;
+    color: navy;
+}
+
+.about-me-left-column:hover {
+    color: pink;
+    font-size: 70px;
 }
 
 .my-work-left-column {
     font-size: 50px;
     padding-top: 30%;
     text-align: end;
+    color: navy;
+}
+
+.my-work-left-column:hover {
+    color: pink;
+    font-size: 70px;
 }
 
 .right-column {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .right-column-p {
     margin-top: 5%;
     font-size: 18px;
-    text-align: left;
     line-height: 1.5;
+    color: aliceblue;
 }
 
 .right-column-p2 {
     font-size: 18px;
     text-align: left;
     line-height: 1.5;
+    color: aliceblue;
 }
 
 .right-column-p3 {
@@ -86,12 +151,12 @@
     text-align: left;
     margin-bottom: 5%;
     line-height: 1.5;
+    color: aliceblue;
 }
 
 .photo-container1 {
     padding: 6px;
     position: relative;
-    justify-content: center;
 }
 
 .image-1 {
@@ -99,7 +164,7 @@
 }
 
 .image-1:hover {
-    border: 6px solid black;
+    border: 6px solid navy;
 }
 
 .image-text1 {
@@ -114,7 +179,7 @@
 }
 
 .image-text1:hover {
-    background-color: blue;
+    background-color: navy;
 }
 
 .photo-container2 {
@@ -127,7 +192,7 @@
 }
 
 .image-2:hover {
-    border: 6px solid black;
+    border: 6px solid navy;
 }
 
 .image-text2 {
@@ -142,7 +207,7 @@
 }
 
 .image-text2:hover {
-    background-color: blue;
+    background-color: navy;
 }
 
 .photo-container3 {
@@ -155,7 +220,7 @@
 }
 
 .image-3:hover {
-    border: 6px solid black;
+    border: 6px solid navy;
 }
 
 .image-text3 {
@@ -170,7 +235,7 @@
   }
 
 .image-text3:hover {
-    background-color: blue;
+    background-color: navy;
 }
 
 .photo-container4 {
@@ -183,7 +248,7 @@
 }
 
 .image-4:hover {
-    border: 6px solid black;
+    border: 6px solid navy;
 }
 
 .image-text4 {
@@ -198,7 +263,7 @@
 }
 
 .image-text4:hover {
-    background-color: blue;
+    background-color: navy;
 }
 
 .photo-container5 {
@@ -211,7 +276,7 @@
 }
 
 .image-5:hover {
-    border: 6px solid black;
+    border: 6px solid navy;
 }
 
 .image-text5 {
@@ -226,12 +291,10 @@
 }
 
 .image-text5:hover {
-    background-color: blue;
+    background-color: navy;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
     background-color: cadetblue;
     border: 6px solid aliceblue;
     margin: 20px;
@@ -239,14 +302,74 @@
 
 .contact-me {
     margin: 25px;
-    font-size: 30px;
+    font-size: 40px;
     color: azure;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-list {
     margin: 25px;
+    text-align: right;
     background-color: cadetblue;
-    align-self: flex-end;
     font-size: 20px;
+}
+
+.footer-1 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.footer-1:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+}
+
+.footer-2 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.footer-2:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+}
+
+.footer-3 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.footer-3:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+}
+
+.footer-4 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.footer-4:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
+}
+
+.footer-5 {
+    background-color: black;
+    color: aliceblue;
+    margin: 3px;
+}
+
+.footer-5:hover {
+    background-color: white;
+    border: 6px solid white;
+    color: navy;
 }
