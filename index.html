@@ -10,10 +10,10 @@
 <header class="header-container">
     <h1 class="genovese">Genovese</h1>
     <section class="header-links">
-        <a href="#aboutme">About Me</a>
+        <a class="header-1" href="#aboutme">About Me</a>
         <a href="#mywork">My Work</a>
         <a href="#contactme">Contact Me</a>
-        <a href="#resume">Resume</a>
+        <a href="https://profile.indeed.com/resume" target="_blank">Resume</a>
     </section>
 </header>
 
@@ -21,38 +21,42 @@
 <section class="column-container">
     <section class="left-column">
         <h1 class="about-me-left-column">About Me</h1>
-        <p class="left-column-p">Hello, my name is Tara Genovese, welcome to my portfolio. I am from Port Monmouth, New Jersey. I graduated from Georgian Court University with a Bachelor's degree in Psychology. After hearing from my sister, a Salesforce Developer, about the job opportunities in the field of developing, I wanted to learn more. I stumbled upon Rutgers' Full Stack Web Development program and my journey began. I have been working to expand my skill set ever since. I'm excited for this journey to continue and to see what I can accomplish along the way. Check out some of my work.</p>
-        <h1 class="my-work-left-column">My Work</h1>
-        <p class="left-column-p2">Explore my projects by clicking on the image text boxes. Some of them are still in progress!</p>
+        <h1 id="mywork" class="my-work-left-column">My Work</h1>
+    </section>
+
+    <section class="right-column">
+        <section>
+            <p id="aboutme" class="right-column-p">Hello, my name is Tara Genovese, welcome to my portfolio. I am from Port Monmouth, New Jersey. I graduated from Georgian Court University with a Bachelor's degree in Psychology. After hearing from my sister, a Salesforce Developer, about the job opportunities in the field of developing, I wanted to learn more.</p>
+            <p class="right-column-p2">I stumbled upon Rutgers' Full Stack Web Development program and my journey began. I have been working to expand my skill set ever since. I'm excited for this journey to continue and to see what I can accomplish along the way. Check out some of my work.</p>
+            <p class="right-column-p3">Explore my projects by clicking on the image text boxes. Some of them are still in progress!</p>
+        </section>
+
         <section class="photo-container1">
-            <img src="./images/githubphoto.jpg" alt="github photo" width="200" heigh="200"></img>
+            <img class="image-1" src="./images/githubphoto.jpg" alt="github photo" width="270" heigh="270"></img>
             <div class="image-text1">
                 <h4>Snippet</h4>
                 <p>What a beautiful photo</p>
             </div>
         </section>
+
         <section class="photo-container2">
-            <img src="images/abstractimage2.jpg" alt="abstract image 2" width="300" height="300"></img>
+            <img class="image-2" src="images/abstractimage.jpg" alt="abstract image" width="500" height="300">
             <div class="image-text2">
                 <h4>Snippet</h4>
                 <p>What a beautiful photo</p>
             </div>
         </section>
-        
-    </section>
 
-    <section class="right-column">
         <section class="photo-container3">
-            <img src="./images/codingphoto.jpg" alt="coding photo" width="600" height="400"></img>
+            <img class="image-3" src="./images/codingphoto.jpg" alt="coding photo" width="600" height="400"></img>
             <div class="image-text3">
                 <h4>Snippet</h4>
                 <p>What a beautiful photo</p>
             </div>
-
         </section>
 
         <section class="photo-container4">
-            <img src="images/abstractimage.jpg" alt="abstract image" width="500" height="300">
+            <img class="image-4" src="images/abstractimage2.jpg" alt="abstract image 2" width="400" height="400"></img>
             <div class="image-text4">
                 <h4>Snippet</h4>
                 <p>What a beautiful photo</p>
@@ -60,24 +64,26 @@
         </section>
 
         <section class="photo-container5">
-            <img src="images/worldcodeimage.jpg" alt="world image and code" width="600" height="400">
+            <img class="image-5" src="images/lotusphoto.jpg" alt="lotus and lilipad image" width="600" height="400">
             <div class="image-text5">
                 <h4>Snippet</h4>
                 <p>What a beautiful photo</p>
             </div>
         </section>
+
     </section>
+
 </section>
 
 </body>
 
 <footer class="footer-container">
-    <h2 class="contact-me">Contact Me</h2>
+    <h2 id="contactme" class="contact-me">Contact Me</h2>
     <section class="footer-list">
-        <a href="#cell">(732) 372-9910</a>
-        <a href="#email">tanovese@gmail.com</a>
-        <a href="#github">Github</a>
-        <a href="#linkedin">LinkedIn</a>
-        <a href="#codepen">Codepen</a>
+        <a href="tel:+17323729910">(732) 372-9910</a>
+        <a href="mailto:tanovese@gmail.com">tanovese@gmail.com</a>
+        <a href="https://github.com/tanovese?tab=repositories" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/tgenov3se/" target="_blank">LinkedIn</a>
+        <a href="https://codepen.io/your-work/" target="_blank">Codepen</a>
     </section>
 </footer>

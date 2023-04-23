@@ -7,12 +7,21 @@
     justify-content: space-between;
     background-color: cadetblue;
     color: whitesmoke;
+    border: 6px solid aliceblue;
+    margin: 20px;
 }
 
 .genovese {
     margin: 25px;
     color: whitesmoke;
     font-size: 50px;
+    padding: 6px;
+}
+
+.header-1 {
+    border: 6px solid aliceblue;
+    padding: 6px;
+    font-size: 18px;
 }
 
 .header-links {
@@ -29,135 +38,210 @@
 
 .column-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .left-column {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
+    width: 20%;
+    padding: 40px;
+    border-right: 6px solid aliceblue;
+    margin: 20px;
 }
 
 .about-me-left-column {
-    font-size: 30px;
-}
-
-.left-column-p {
-    display: flex;
-    justify-content: left;
-    font-size: 18px;
+    font-size: 50px;
+    text-align: end;
+    padding-bottom: 90%;
 }
 
 .my-work-left-column {
-    font-size: 30px;
-}
-
-.left-column-p2 {
-    display: flex;
-    justify-content: left;
-    font-size: 18px;
+    font-size: 50px;
+    padding-top: 30%;
+    text-align: end;
 }
 
 .right-column {
-    width: 30%;
+    margin: 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.right-column-p {
+    margin-top: 5%;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.right-column-p2 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.right-column-p3 {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 5%;
+    line-height: 1.5;
 }
 
 .photo-container1 {
-    display: flex;
-    padding: 15px;
+    padding: 6px;
+    position: relative;
+    justify-content: center;
+}
+
+.image-1 {
+    border: 6px solid aliceblue;
+}
+
+.image-1:hover {
+    border: 6px solid black;
 }
 
 .image-text1 {
-    position: relative;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
 }
 
-  .photo-container2 {
-    display: flex;
-    padding: 15px;
-    align-items: end;
+.image-text1:hover {
+    background-color: blue;
+}
+
+.photo-container2 {
+    padding: 6px;
+    position: relative;
+}
+
+.image-2 {
+    border: 6px solid aliceblue;
+}
+
+.image-2:hover {
+    border: 6px solid black;
 }
 
 .image-text2 {
-    position:relative;
-    bottom: 20px;
-    right: 20px;
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
+}
+
+.image-text2:hover {
+    background-color: blue;
 }
 
 .photo-container3 {
-    display: flex;
-    padding: 15px;
-    align-items: end;
+    padding: 6px;
+    position: relative;
+}
+
+.image-3 {
+    border: 6px solid aliceblue;
+}
+
+.image-3:hover {
+    border: 6px solid black;
 }
 
 .image-text3 {
-    position: relative;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
   }
 
+.image-text3:hover {
+    background-color: blue;
+}
+
 .photo-container4 {
-    display: flex;
-    padding: 15px;
-    align-items: end;
+    position: relative;
+    padding: 6px;
+}
+
+.image-4 {
+    border: 6px solid aliceblue;
+}
+
+.image-4:hover {
+    border: 6px solid black;
 }
 
 .image-text4 {
-    position:relative;
-    bottom: 20px;
-    right: 20px;
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.image-text4:hover {
+    background-color: blue;
 }
 
 .photo-container5 {
-    display: flex;
-    padding: 15px;
-    align-items: end;
+    padding: 6px;
+    position: relative;
+}
+
+.image-5 {
+    border: 6px solid aliceblue;
+}
+
+.image-5:hover {
+    border: 6px solid black;
 }
 
 .image-text5 {
-    position:relative;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
+}
+
+.image-text5:hover {
+    background-color: blue;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     background-color: cadetblue;
+    border: 6px solid aliceblue;
+    margin: 20px;
 }
 
 .contact-me {
     margin: 25px;
     font-size: 30px;
     color: azure;
+    text-align: right;
 }
 
 .footer-list {
