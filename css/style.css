@@ -19,7 +19,6 @@
 
 a:link {
     text-decoration: none;
-    border: 6px solid whitesmoke;
     padding: 6px;
     font-size: 18px;
 }
@@ -33,6 +32,7 @@ a:link {
 }
 
 .header-1, .header-2, .header-3, .header-4 {
+    border: 6px solid whitesmoke;
     background-color: navy;
     color: aliceblue;
     margin: 3px;
@@ -162,6 +162,7 @@ a:link {
 }
 
 .footer-1, .footer-2, .footer-3, .footer-4, .footer-5 {
+    border: 6px solid whitesmoke;
     background-color: navy;
     color: aliceblue;
     margin: 3px;
