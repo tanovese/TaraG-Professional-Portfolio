@@ -1,213 +1,138 @@
 * {
     font-family: "Lucida Bright", "Segoe UI", "Leelawadee UI",'Lucida Sans', sans-serif;
-    font-weight: bold;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    background-color: cadetblue;
-    color: whitesmoke;
-    border: 6px solid aliceblue;
+    background-color: gainsboro;
+    color: black;
+    border: 6px solid whitesmoke;
 }
 
 .genovese {
     margin: 25px;
-    color: whitesmoke;
+    color: navy;
     font-size: 50px;
-    padding: 6px;
+    padding: 3px;
 }
 
 a:link {
     text-decoration: none;
-    border: 6px solid aliceblue;
+    border: 6px solid whitesmoke;
     padding: 6px;
     font-size: 18px;
 }
 
 .header-links {
+    padding-bottom: 15px;
    margin: 25px;
-   background-color: cadetblue;
+   background-color: gainsboro;
    align-self: flex-end;
-   color: aliceblue;
    font-size: 20px;
 }
 
-.header-1 {
-    background-color: black;
+.header-1, .header-2, .header-3, .header-4 {
+    background-color: navy;
     color: aliceblue;
     margin: 3px;
 }
 
-.header-1:hover {
+.header-1:hover, .header-2:hover, .header-3:hover, .header-4:hover {
     background-color: white;
     border: 6px solid white;
     color: navy;
-    font-style: italic;
-}
-
-.header-2 {
-    background-color: black;
-    color:aliceblue;
-    margin: 3px;
-}
-
-.header-2:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-    font-style: italic;
-}
-
-.header-3 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.header-3:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-    font-style: italic;
-}
-
-.header-4 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.header-4:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-    font-style: italic;
 }
 
 .body {
-    background-color: rgb(83, 129, 142);
+    background-color: gainsboro;
 }
 
 .column-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .left-column {
-    width: 20%;
-    padding: 40px;
+    width: 40%;
     border-right: 6px solid aliceblue;
     margin: 20px;
-}
-
-.about-me-left-column {
-    font-size: 50px;
-    text-align: end;
-    padding-bottom: 90%;
-    color: navy;
-}
-
-.about-me-left-column:hover {
-    color: pink;
-    font-size: 70px;
-}
-
-.my-work-left-column {
-    font-size: 50px;
-    padding-top: 30%;
-    text-align: end;
-    color: navy;
-}
-
-.my-work-left-column:hover {
-    color: pink;
-    font-size: 70px;
-}
-
-.right-column {
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.right-column-p {
-    margin-top: 5%;
-    font-size: 18px;
-    line-height: 1.5;
-    color: aliceblue;
-}
-
-.right-column-p2 {
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.5;
-    color: aliceblue;
-}
-
-.right-column-p3 {
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 5%;
-    line-height: 1.5;
-    color: aliceblue;
+    padding-right: 5%;
 }
 
 .photo-container1 {
-    padding: 6px;
-    position: relative;
+    margin-top: 4%;
 }
 
 .image-1 {
     border: 6px solid aliceblue;
 }
 
-.image-1:hover {
-    border: 6px solid navy;
+.about-me-left-column {
+    font-size: 40px;
+    color: navy;
 }
 
-.image-text1 {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: black;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
+.about-me-left-column:hover {
+    color: pink;
 }
 
-.image-text1:hover {
-    background-color: navy;
+.left-column-p {
+    margin-top: 5%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+.left-column-p2, .left-column-p3 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    color: black;
+}
+
+.my-work-left-column {
+    font-size: 40px;
+    color: navy;
+    padding-top: 5%;
+}
+
+.my-work-left-column:hover {
+    color: pink;
+}
+
+.right-column {
+    margin: 20px;
 }
 
 .photo-container2 {
     padding: 6px;
     position: relative;
+    margin-bottom: 4%;
 }
 
-.image-2 {
+.image-2, .image-3 {
     border: 6px solid aliceblue;
 }
 
-.image-2:hover {
-    border: 6px solid navy;
+.image-2:hover, .image-3:hover {
+    filter:sepia(30%);
 }
 
-.image-text2 {
-    position:absolute;
+.image-text2, .image-text3 {
+    position: absolute;
     bottom: 10px;
     right: 10px;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: navy;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 18px;
-}
+  }
 
-.image-text2:hover {
-    background-color: navy;
+.image-text2:hover, .image-text2:hover {
+    font-style: italic;
 }
 
 .photo-container3 {
@@ -215,160 +140,33 @@ a:link {
     position: relative;
 }
 
-.image-3 {
-    border: 6px solid aliceblue;
-}
-
-.image-3:hover {
-    border: 6px solid navy;
-}
-
-.image-text3 {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: black;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 18px;
-  }
-
-.image-text3:hover {
-    background-color: navy;
-}
-
-.photo-container4 {
-    position: relative;
-    padding: 6px;
-}
-
-.image-4 {
-    border: 6px solid aliceblue;
-}
-
-.image-4:hover {
-    border: 6px solid navy;
-}
-
-.image-text4 {
-    position:absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: black;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-}
-
-.image-text4:hover {
-    background-color: navy;
-}
-
-.photo-container5 {
-    padding: 6px;
-    position: relative;
-}
-
-.image-5 {
-    border: 6px solid aliceblue;
-}
-
-.image-5:hover {
-    border: 6px solid navy;
-}
-
-.image-text5 {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: black;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 18px;
-}
-
-.image-text5:hover {
-    background-color: navy;
-}
-
 .footer-container {
-    background-color: cadetblue;
-    border: 6px solid aliceblue;
-    margin: 20px;
+    background-color: gainsboro;
+    border: 6px solid whitesmoke;
 }
 
 .contact-me {
     margin: 25px;
     font-size: 40px;
-    color: azure;
+    color: navy;
     text-align: left;
 }
 
 .footer-list {
+    padding: 20px;
     margin: 25px;
     text-align: right;
-    background-color: cadetblue;
+    background-color: gainsboro;
     font-size: 20px;
 }
 
-.footer-1 {
-    background-color: black;
+.footer-1, .footer-2, .footer-3, .footer-4, .footer-5 {
+    background-color: navy;
     color: aliceblue;
     margin: 3px;
 }
 
-.footer-1:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-}
-
-.footer-2 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.footer-2:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-}
-
-.footer-3 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.footer-3:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-}
-
-.footer-4 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.footer-4:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
-}
-
-.footer-5 {
-    background-color: black;
-    color: aliceblue;
-    margin: 3px;
-}
-
-.footer-5:hover {
+.footer-1:hover, .footer-2:hover, .footer-3:hover, .footer-4:hover, .footer-5:hover {
     background-color: white;
     border: 6px solid white;
     color: navy;
