@@ -52,6 +52,7 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-decoration: none;
 }
 
 .left-column {
@@ -117,7 +118,7 @@ a:link {
 }
 
 .image-2:hover, .image-3:hover {
-    filter:sepia(30%);
+    filter:sepia(20%);
 }
 
 .image-text2, .image-text3 {
@@ -131,7 +132,7 @@ a:link {
     font-size: 18px;
   }
 
-.image-text2:hover, .image-text2:hover {
+.image-text2:hover, .image-text3:hover {
     font-style: italic;
 }
 
