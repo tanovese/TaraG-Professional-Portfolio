@@ -56,6 +56,12 @@ a:link {
     color: var(--link-hover-text-color);
 }
 
+.header-1:focus, .header-2:focus, .header-3:focus, .header-4:focus {
+    background-color: var(--link-hover-bg-color);
+    border: 6px solid var(--border-color);
+    color: var(--link-hover-text-color);
+}
+
 .body {
     background-color: var(--bg-color);
 }
@@ -134,6 +140,10 @@ a:link {
     filter:sepia(20%);
 }
 
+.image-2:focus, .image-3:focus {
+    filter:sepia(20%);
+}
+
 .image-text2, .image-text3 {
     position: absolute;
     bottom: 10px;
@@ -183,6 +193,12 @@ a:link {
 }
 
 .footer-1:hover, .footer-2:hover, .footer-3:hover, .footer-4:hover, .footer-5:hover {
+    background-color: var(--link-hover-bg-color);
+    border: 6px solid var(--border-color);
+    color: var(--link-hover-text-color);
+}
+
+.footer-1:focus, .footer-2:focus, .footer-3:focus, .footer-4:focus, .footer-5:focus {
     background-color: var(--link-hover-bg-color);
     border: 6px solid var(--border-color);
     color: var(--link-hover-text-color);
