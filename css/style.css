@@ -238,6 +238,7 @@ a:link {
     .left-column {
         width: fit-content;
         align-content: center;
+        border-right: 0px;
     }
 
     .left-column-p, .left-column-p2, .left-column-p3 {
