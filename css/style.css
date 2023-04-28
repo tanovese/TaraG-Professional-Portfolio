@@ -118,7 +118,6 @@ a:link {
 .right-column {
     margin: 20px;
     width: fit-content;
-    display: block;
 }
 
 .photo-container2 {
@@ -189,7 +188,19 @@ a:link {
     color: var(--link-hover-text-color);
 }
 
+@media screen and (min-width: 1286px) {
+
+    .right-column {
+        width: 50%;
+    }
+
+    .left-column {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 1159px) {
+
     .genovese, .contact-me {
         font-size: 38px;
     }
@@ -200,6 +211,10 @@ a:link {
 
     .about-me-left-column, .my-work-left-column {
         font-size: 25px;
+    }
+
+    .left-column {
+        width: 100%;
     }
 
     .header-container, .footer-container {
@@ -214,21 +229,5 @@ a:link {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .left-column {
-        display: block;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1286px) {
-
-    .right-column {
-        width: fit-content;
-    }
-
-    .left-column {
-        width: fit-content;
     }
 }
