@@ -16,7 +16,7 @@ Click the links at the top right hand of the page to be directed to the "About M
 
 ![Portfolio Webpage Screenshot](./images/Screenshot%202023-04-28%20160638.png)
 
-Link:
+Link: https://tanovese.github.io/TaraG-Professional-Portfolio/
 
 ## Credits
 
