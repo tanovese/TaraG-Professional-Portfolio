@@ -1,18 +1,30 @@
+:root {
+    --bg-color:gainsboro;
+    --ptext-color:black;
+    --border-color:whitesmoke;
+    --title-color:navy;
+    --link-bg-color:navy;
+    --link-text-color: aliceblue;
+    --link-hover-text-color:navy;
+    --link-hover-bg-color:white;
+    --title-color-hover:pink;
+}
+
 * {
     font-family: "Lucida Bright", "Segoe UI", "Leelawadee UI",'Lucida Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    background-color: gainsboro;
-    color: black;
-    border: 6px solid whitesmoke;
+    background-color: var(--bg-color);
+    border: 6px solid var(--border-color);
 }
 
 .genovese {
     margin: 25px;
-    color: navy;
+    color: var(--title-color);
     font-size: 50px;
     padding: 3px;
 }
@@ -26,26 +38,26 @@ a:link {
 .header-links {
     padding-bottom: 15px;
    margin: 25px;
-   background-color: gainsboro;
+   background-color: var(--bg-color);
    align-self: flex-end;
    font-size: 20px;
 }
 
 .header-1, .header-2, .header-3, .header-4 {
-    border: 6px solid whitesmoke;
-    background-color: navy;
-    color: aliceblue;
+    border: 6px solid var(--border-color);
+    background-color: var(--link-bg-color);
+    color: var(--link-text-color);
     margin: 3px;
 }
 
 .header-1:hover, .header-2:hover, .header-3:hover, .header-4:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
+    background-color: var(--link-hover-bg-color);
+    border: 6px solid var(--border-color);
+    color: var(--link-hover-text-color);
 }
 
 .body {
-    background-color: gainsboro;
+    background-color: var(--bg-color);
 }
 
 .column-container {
@@ -57,7 +69,7 @@ a:link {
 
 .left-column {
     width: 40%;
-    border-right: 6px solid aliceblue;
+    border-right: 6px solid var(--border-color);
     margin: 20px;
     padding-right: 5%;
 }
@@ -67,44 +79,45 @@ a:link {
 }
 
 .image-1 {
-    border: 6px solid aliceblue;
+    border: 6px solid var(--border-color);
 }
 
 .about-me-left-column {
-    font-size: 40px;
-    color: navy;
+    font-size: 30px;
+    color: var(--title-color)
 }
 
 .about-me-left-column:hover {
-    color: pink;
+    color: var(--title-color-hover);
 }
 
 .left-column-p {
     margin-top: 5%;
     font-size: 18px;
     line-height: 1.5;
-    color: black;
+    color: var(--ptext-color);
 }
 
 .left-column-p2, .left-column-p3 {
     font-size: 18px;
     text-align: left;
     line-height: 1.5;
-    color: black;
+    color: var(--ptext-color);
 }
 
 .my-work-left-column {
-    font-size: 40px;
-    color: navy;
+    font-size: 30px;
+    color: var(--title-color);
     padding-top: 5%;
 }
 
 .my-work-left-column:hover {
-    color: pink;
+    color: var(--title-color-hover);
 }
 
 .right-column {
     margin: 20px;
+    width: 60%;
 }
 
 .photo-container2 {
@@ -114,7 +127,7 @@ a:link {
 }
 
 .image-2, .image-3 {
-    border: 6px solid aliceblue;
+    border: 6px solid var(--border-color);
 }
 
 .image-2:hover, .image-3:hover {
@@ -125,8 +138,8 @@ a:link {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background-color: whitesmoke;
-    color: navy;
+    background-color: var(--border-color);
+    color: var(--title-color);
     padding-left: 10px;
     padding-right: 10px;
     font-size: 18px;
@@ -142,34 +155,41 @@ a:link {
 }
 
 .footer-container {
-    background-color: gainsboro;
-    border: 6px solid whitesmoke;
+    background-color: var(--bg-color);
+    border: 6px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-me {
     margin: 25px;
-    font-size: 40px;
-    color: navy;
+    font-size: 30px;
+    color: var(--title-color);
     text-align: left;
 }
 
 .footer-list {
     padding: 20px;
     margin: 25px;
-    text-align: right;
-    background-color: gainsboro;
+    background-color: var(--bg-color);
     font-size: 20px;
 }
 
 .footer-1, .footer-2, .footer-3, .footer-4, .footer-5 {
-    border: 6px solid whitesmoke;
-    background-color: navy;
-    color: aliceblue;
+    border: 6px solid var(--border-color);
+    background-color: var(--link-bg-color);
+    color: var(--link-text-color);
     margin: 3px;
 }
 
 .footer-1:hover, .footer-2:hover, .footer-3:hover, .footer-4:hover, .footer-5:hover {
-    background-color: white;
-    border: 6px solid white;
-    color: navy;
+    background-color: var(--link-hover-bg-color);
+    border: 6px solid var(--border-color);
+    color: var(--link-hover-text-color);
+}
+
+@media (max-width: 480px) {
+    .genovese { 
+        font-size: 24;
+    }
 }
