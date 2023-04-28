@@ -117,7 +117,8 @@ a:link {
 
 .right-column {
     margin: 20px;
-    width: 60%;
+    width: fit-content;
+    display: block;
 }
 
 .photo-container2 {
@@ -189,37 +190,45 @@ a:link {
 }
 
 @media screen and (max-width: 1159px) {
-    .genovese {
+    .genovese, .contact-me {
         font-size: 38px;
     }
 
-    .about-me-left-column, .my-work-left-column, .contact-me {
-        font-size: 20px;
+    .contact-me {
+        font-size: 32px;
+    }
+
+    .about-me-left-column, .my-work-left-column {
+        font-size: 25px;
+    }
+
+    .header-container, .footer-container {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .header-links, .footer-list {
-        display: block;
-        width: fit-content;
-    }
-
-    .column-container {
-        display: block;
+        width:fit-content;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .left-column {
-        justify-content: center;
+        display: block;
         width: 100%;
     }
+}
+
+@media screen and (max-width: 1286px) {
 
     .right-column {
         width: fit-content;
     }
 
-    .left-column-p, .left-column-p2, .left-column-p3, .image-text2, .image-text3 {
-        font-size: 16px;
-    }
-
-    .header-1, .header-2, .header-3, .header-4, .footer-1, .footer-2, .footer-3, .footer-4 {
-        font-size: 16px;
+    .left-column {
+        width: fit-content;
     }
 }
