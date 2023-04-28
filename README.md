@@ -14,7 +14,7 @@ Click the links at the top right hand of the page to be directed to the "About M
 
 ## Screenshot and Link to Application
 
-![Portfolio Webpage Screenshot](/TaraG-Professional-Portfolio/images/Screenshot%202023-04-28%20160638.png)
+![Portfolio Webpage Screenshot](./images/Screenshot%202023-04-28%20160638.png)
 
 Link:
 
