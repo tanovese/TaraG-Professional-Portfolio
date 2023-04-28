@@ -188,35 +188,14 @@ a:link {
     color: var(--link-hover-text-color);
 }
 
-@media screen and (min-width: 1286px) {
+@media screen and (max-width: 1158px) {
 
-    .right-column {
-        width: 50%;
-    }
-
-    .left-column {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1159px) {
-
-    .genovese, .contact-me {
+    .genovese {
         font-size: 38px;
+        margin: 15px;
+        padding: 0px;
     }
-
-    .contact-me {
-        font-size: 32px;
-    }
-
-    .about-me-left-column, .my-work-left-column {
-        font-size: 25px;
-    }
-
-    .left-column {
-        width: 100%;
-    }
-
+    
     .header-container, .footer-container {
         width:100%;
         display: flex;
@@ -229,5 +208,50 @@ a:link {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me-left-column, .my-work-left-column {
+        font-size: 25px;
+    }
+
+    .left-column {
+        width: fit-content;
+        align-content: center;
+    }
+
+    .left-column-p, .left-column-p2, .left-column-p3 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .right-column {
+        width: fit-content;
+    }
+
+    .image-text2, .image-text3 {
+        font-size: 16px;
+    }
+
+    .contact-me {
+        font-size: 32px;
+        margin: 15px;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1286px) {
+
+    .left-column {
+        width: 50%;
+    }
+
+    .right-column {
+        width: 50%;
     }
 }
