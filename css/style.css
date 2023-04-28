@@ -188,8 +188,38 @@ a:link {
     color: var(--link-hover-text-color);
 }
 
-@media (max-width: 480px) {
-    .genovese { 
-        font-size: 24;
+@media screen and (max-width: 1159px) {
+    .genovese {
+        font-size: 38px;
+    }
+
+    .about-me-left-column, .my-work-left-column, .contact-me {
+        font-size: 20px;
+    }
+
+    .header-links, .footer-list {
+        display: block;
+        width: fit-content;
+    }
+
+    .column-container {
+        display: block;
+    }
+
+    .left-column {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .right-column {
+        width: fit-content;
+    }
+
+    .left-column-p, .left-column-p2, .left-column-p3, .image-text2, .image-text3 {
+        font-size: 16px;
+    }
+
+    .header-1, .header-2, .header-3, .header-4, .footer-1, .footer-2, .footer-3, .footer-4 {
+        font-size: 16px;
     }
 }
